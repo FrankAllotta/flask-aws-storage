@@ -1,4 +1,5 @@
 import boto3
+from botocore.client import Config
 
 def upload_file(file_name, bucket):
     object_name = file_name
